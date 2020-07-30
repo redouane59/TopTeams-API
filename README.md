@@ -11,7 +11,7 @@ https://app.swaggerhub.com/apis-docs/TopTeams/TopTeamsAPIv3/1.2.0
 
 ### Several ways to generate compositions
 
-- Classic way (ratings only)
+#### Classic way (ratings only)
 
 Giving a list of players and their ratings, you will be able to get a simple balanced composition 
 of equal teams.
@@ -40,7 +40,7 @@ of equal teams.
 </p>
 </details>
 
-- Adding positions (ratings + positions)
+#### Adding positions (ratings + positions)
 
 If pitch positions and profiles are important to you, you can additionally define a position to several players. 
 The engine will take this info into account and first split players regarding their position, then regarding their level.
@@ -72,7 +72,7 @@ The engine will take this info into account and first split players regarding th
    </p>
    </details>
    
-- Filling existing teams (ratings + positions optionnally)
+#### Filling existing teams (ratings + positions optionnally)
 
 Let's imagine that some players want to play together. No problem! Insert the pre-created teams and 
 the non-affected player list. The engine will fill the teams and give you the best possible composition.
