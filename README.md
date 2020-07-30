@@ -16,7 +16,7 @@ https://app.swaggerhub.com/apis-docs/TopTeams/TopTeamsAPIv3/1.2.0
 Giving a list of players and their ratings, you will be able to get a simple balanced composition 
 of equal teams.
 <details>
-  <summary>See json</summary>
+  <summary>See sent body sample</summary>
    <p>
    
 ```
@@ -46,7 +46,7 @@ If pitch positions and profiles are important to you, you can additionally defin
 The engine will take this info into account and first split players regarding their position, then regarding their level.
 
 <details>
-  <summary>See json</summary>
+  <summary>See sent body sample</summary>
    <p>
    
 ```
@@ -78,7 +78,7 @@ Let's imagine that some players want to play together. No problem! Insert the pr
 the non-affected player list. The engine will fill the teams and give you the best possible composition.
 
 <details>
-  <summary>See json</summary>
+  <summary>See sent body sample</summary>
    <p>
 
 ```
@@ -144,7 +144,7 @@ the non-affected player list. The engine will fill the teams and give you the be
 This algorithm takes into account the global level of the two teams, the final goal average, and the number of games played by each player.
 
 <details>
-  <summary>See json</summary>
+  <summary>See sent body sample</summary>
    <p>
    
 ```
