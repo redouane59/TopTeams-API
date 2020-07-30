@@ -2,7 +2,7 @@
 # Welcome to TopTeams API
 Using [Google Functions](https://cloud.google.com/functions) and [Google Cloud Run](https://cloud.google.com/run), the module TopTeams API allows you to execute different functions in order to **optimize your team sport activities**.
 
-# Swagger
+## Swagger
 https://app.swaggerhub.com/apis-docs/TopTeams/TopTeamsAPIv3/1.2.0
 (Thanks Alex Faria !)
 
