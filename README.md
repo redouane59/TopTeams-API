@@ -209,8 +209,8 @@ This algorithm takes into account the global level of the two teams, the final g
 # Process Summary
 ![Process Summary](https://i.ibb.co/mhHFccT/process-summary.png)
 ## Player definition 
-- id (String) : must be unique
-- rating (double) : must be between 0 & 100. 
+- `id` (String) : must be unique
+- `rating` (double) : must be between 0 & 100. 
 
 ### Recommended values
 ```
@@ -220,11 +220,11 @@ Intermediate : 60
 Advance : 70
 Professionnal : 80
 ```
-- position (enum) : is optionnal.
+- `position` (enum) : is optionnal.
 ```
 Goal Keeper : GK
 Defender : DEF
 Attacker : ATT
 ```
-- nb_games_played (int) : is optionnal. Only used for *Rating updates calculator* function.
+- `nb_games_played` (int) : is optionnal. Only used for *Rating updates calculator* function.
 
