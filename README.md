@@ -139,6 +139,26 @@ the non-affected player list. The engine will fill the teams and give you the be
 
 - `ODD` : teams with different number of players on the pitch (ex: 6vs5)
 
+## Player definition 
+- `id` (String) : must be unique
+- `rating` (double) : must be between 0 & 100. 
+
+### Recommended values
+```
+Novice : 40
+Beginner : 50
+Intermediate : 60
+Advance : 70
+Professionnal : 80
+```
+- `position` (enum) : is optionnal.
+```
+Goal Keeper : GK
+Defender : DEF
+Attacker : ATT
+```
+- `nb_games_played` (int) : is optionnal. Only used for *Rating updates calculator* function.
+
 ## Rating updates calculator
 **Calculate the player rating modification** to apply after a game from a given composition and a score.
 This algorithm takes into account the global level of the two teams, the final goal average, and the number of games played by each player.
@@ -208,23 +228,3 @@ This algorithm takes into account the global level of the two teams, the final g
 
 # Process Summary
 ![Process Summary](https://i.ibb.co/mhHFccT/process-summary.png)
-## Player definition 
-- `id` (String) : must be unique
-- `rating` (double) : must be between 0 & 100. 
-
-### Recommended values
-```
-Novice : 40
-Beginner : 50
-Intermediate : 60
-Advance : 70
-Professionnal : 80
-```
-- `position` (enum) : is optionnal.
-```
-Goal Keeper : GK
-Defender : DEF
-Attacker : ATT
-```
-- `nb_games_played` (int) : is optionnal. Only used for *Rating updates calculator* function.
-
